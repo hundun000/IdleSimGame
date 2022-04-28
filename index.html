@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://v6p9d9t4.ssl.hwcdn.net/html/5660684/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" char-set="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y:auto;
+  height:80vh;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<script type="text/javascript" src="./mod/BaseMod.js" charset="utf-8"></script>
+<script type="text/javascript" src="./mod/R18Mod.js" charset="utf-8"></script>
+<script type="text/javascript" src="./mod/StockMod.js" charset="utf-8"></script>
+<script type="text/javascript" src="./main.js" charset="utf-8"></script>
+<script type="text/javascript" src="./btn.js" charset="utf-8"></script>
+
+</head>
+
+<body onload="load();">
+
+<h2 id="htmlId_title">will-be-replaced</h2>
+<p><button onclick="newgame()">开始</button><button onclick="pause_btn()">暂停</button><button onclick="step_btn()">单步</button><button onclick="auto_btn()">自动</button><button onclick="fast_btn()">快速</button></p>
+<p id="htmlId_attribute">will-be-replaced</p>
+
+<div class="row">
+  <div class="column left">
+	<p id="htmlId_status"></p>
+  </div>
+  <div class="column right" id="bottom-right">
+	<p id="htmlId_gamelog"></p>
+  </div>
+</div>
+
+
+
+</body></html>
